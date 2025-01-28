@@ -5,7 +5,6 @@ import os
 class Base():
     def __init__(self, driver):
         self.driver = driver
-    url = 'https://dominopizza.ru/'
 
     """Method GET current url"""
     def get_current_url(self):
@@ -24,7 +23,7 @@ class Base():
         now_date = datetime.datetime.now().strftime("%Y.%m.%d-%H.%M.%S")
         name_screenshot = "screenshot " + now_date + ".png"
         os.makedirs("screen", exist_ok=True)
-        self.driver.save_screenshot(f"C:\\Users\\d.milyakova\\Desktop\\main_projects\\screen/{name_screenshot}")
+        self.driver.save_screenshot(f"C:\\Users\\d.milyakova\\Desktop\\testUa\\pythonProject2\\screen/{name_screenshot}")
         print("Скриншот выполнен")
 
     """Method assert url"""
