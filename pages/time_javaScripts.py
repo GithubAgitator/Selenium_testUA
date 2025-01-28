@@ -36,7 +36,6 @@ class Click_javaScripts(Base):
             self.driver.maximize_window()
             self.get_current_url()
             self.click_button()
-            # print(self.get_text())
             assert self.get_text() == 'Liftoff!'
             print('Liftoff!')
             self.get_screenshot()
