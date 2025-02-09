@@ -1,6 +1,5 @@
 import time
 import allure
-from selenium.webdriver import ActionChains
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from base.base_class import Base
@@ -90,3 +89,5 @@ class Click_modals(Base):
             self.click_btn()
             self.get_screenshot()
             assert self.assert_word(self.get_modals(), 'Modals')
+
+
