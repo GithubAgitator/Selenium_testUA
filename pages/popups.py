@@ -104,3 +104,4 @@ class Click_popups(Base):
             assert self.get_tooltip_1_res() == 'Cool text'
             time.sleep(2)
             self.get_screenshot()
+            Logger.add_end_step(url=self.driver.current_url, method="popups")

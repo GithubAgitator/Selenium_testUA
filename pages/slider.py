@@ -34,3 +34,4 @@ class Click_slider(Base):
             self.click_slideMe()
             time.sleep(5)
             self.get_screenshot()
+            Logger.add_end_step(url=self.driver.current_url, method="slider")

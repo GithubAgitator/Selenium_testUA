@@ -39,3 +39,4 @@ class Click_javaScripts(Base):
             assert self.get_text() == 'Liftoff!'
             print('Liftoff!')
             self.get_screenshot()
+            Logger.add_end_step(url=self.driver.current_url, method="js")

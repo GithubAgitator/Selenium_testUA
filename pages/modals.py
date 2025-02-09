@@ -89,3 +89,4 @@ class Click_modals(Base):
             self.click_btn()
             self.get_screenshot()
             assert self.assert_word(self.get_modals(), 'Modals')
+            Logger.add_end_step(url=self.driver.current_url, method="modals")

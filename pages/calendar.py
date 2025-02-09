@@ -70,6 +70,7 @@ class Click_calendars(Base):
             self.get_screenshot()
             time.sleep(1)
             self.click_btn()
+            Logger.add_end_step(url=self.driver.current_url, method="Calendar")
 
 
 
