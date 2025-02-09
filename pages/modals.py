@@ -89,5 +89,3 @@ class Click_modals(Base):
             self.click_btn()
             self.get_screenshot()
             assert self.assert_word(self.get_modals(), 'Modals')
-
-
