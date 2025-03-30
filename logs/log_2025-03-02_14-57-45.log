@@ -1,0 +1,56 @@
+
+-----
+Test: test_res/test_calendar.py::test_slider (call)
+Start time: 2025-03-02 14:57:50.731013
+Start name method: time javaScripts
+
+
+-----
+Test: test_res/test_input_forms.py::test_forms (call)
+Start time: 2025-03-02 14:59:06.690915
+Start name method: Input forms
+
+End time: 2025-03-02 15:00:00.472336
+End name method: Input forms
+URL: https://practice-automation.com/form-fields/
+
+-----
+
+-----
+Test: test_res/test_javaScripts.py::test_time_Js (call)
+Start time: 2025-03-02 15:00:02.417498
+Start name method: time javaScripts
+
+End time: 2025-03-02 15:00:58.484015
+End name method: js
+URL: https://practice-automation.com/javascript-delays/
+
+-----
+
+-----
+Test: test_res/test_modals.py::test_modals (call)
+Start time: 2025-03-02 15:01:00.514557
+Start name method: time javaScripts
+
+
+-----
+Test: test_res/test_popups.py::test_popups (call)
+Start time: 2025-03-02 15:02:31.835833
+Start name method: popups
+
+End time: 2025-03-02 15:03:23.978254
+End name method: popups
+URL: https://practice-automation.com/popups/
+
+-----
+
+-----
+Test: test_res/test_slider.py::test_slider (call)
+Start time: 2025-03-02 15:03:25.843016
+Start name method: time javaScripts
+
+End time: 2025-03-02 15:04:13.251872
+End name method: slider
+URL: https://practice-automation.com/slider/
+
+-----
