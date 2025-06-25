@@ -1,0 +1,11 @@
+
+-----
+Test: test_fail_download.py::test_fdownload (call)
+Start time: 2025-06-25 16:04:57.187774
+Start name method: time javaScripts
+
+End time: 2025-06-25 16:05:00.802539
+End name method: fail_download
+URL: https://practice-automation.com/file-download/
+
+-----
