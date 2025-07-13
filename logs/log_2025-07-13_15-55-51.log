@@ -1,0 +1,17 @@
+
+-----
+Test: test_res/test_ads.py::test_slider (call)
+Start time: 2025-07-13 15:56:06.053539
+Start name method: time javaScripts
+
+End time: 2025-07-13 15:56:18.702360
+End name method: hover
+URL: https://practice-automation.com/ads/
+
+-----
+
+-----
+Test: test_res/test_calendar.py::test_slider (call)
+Start time: 2025-07-13 15:56:20.586400
+Start name method: time javaScripts
+
