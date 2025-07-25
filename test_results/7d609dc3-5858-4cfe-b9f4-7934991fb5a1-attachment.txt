@@ -1,0 +1,4 @@
+Старт тест
+Current url https://practice-automation.com/popups/
+Hi there, pal!
+Скриншот выполнен

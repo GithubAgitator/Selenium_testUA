@@ -1,0 +1,11 @@
+
+-----
+Test: test_iframes.py::test_iframe (call)
+Start time: 2025-07-25 10:26:22.663330
+Start name method: time javaScripts
+
+End time: 2025-07-25 10:27:11.666589
+End name method: iframes
+URL: https://practice-automation.com/iframes/
+
+-----

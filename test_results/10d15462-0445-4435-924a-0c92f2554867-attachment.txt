@@ -1,0 +1,8 @@
+Старт тест
+Current url https://practice-automation.com/window-operations/
+Get value url
+Скриншот выполнен
+Get value url
+Скриншот выполнен
+Get value url
+Скриншот выполнен
