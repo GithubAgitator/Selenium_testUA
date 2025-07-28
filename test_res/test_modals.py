@@ -15,4 +15,4 @@ def test_modals():
     print("Старт тест")
 
     click_modals = Click_modals(driver)
-    click_modals.modals()
+    click_modals.modalsf()

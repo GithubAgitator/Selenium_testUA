@@ -55,17 +55,15 @@ class Forms_page(Base):
         return WebDriverWait(self.driver, 5).until(EC.visibility_of_element_located(("xpath", self.milk)))
 
     def get_drink4(self):
-        element = self.driver.find_element("xpath", self.drink4)
-        self.driver.execute_script("arguments[0].scrollIntoView();", element)
-        return element
+        return WebDriverWait(self.driver, 5).until(EC.visibility_of_element_located(("xpath", self.drink4)))
+
 
     def get_wine(self):
         return WebDriverWait(self.driver, 5).until(EC.visibility_of_element_located(("xpath", self.wine)))
 
     def get_color4(self):
-        element = WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located(("xpath", self.color4)))
+        element = self.driver.find_element("xpath", self.color4)
         self.driver.execute_script("arguments[0].scrollIntoView();", element)
-        time.sleep(1)
         return element
 
     def get_green(self):
@@ -115,7 +113,7 @@ class Forms_page(Base):
         print("Click drink4")
 
     def click_color4(self):
-        self.get_color4().click()
+        self.driver.execute_script("arguments[0].click();", self.get_color4())
         print("Click color4")
 
     def click_get_automation_meni(self):
@@ -162,7 +160,6 @@ class Forms_page(Base):
             self.assert_word(self.get_milk(), 'Milk')
             self.click_drink4()
             self.assert_word(self.get_wine(), 'Wine')
-            time.sleep(2)
             self.click_color4()
             self.assert_word(self.get_green(), 'Green')
             time.sleep(2)

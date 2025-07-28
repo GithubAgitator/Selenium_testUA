@@ -21,7 +21,7 @@ class Click_modals(Base):
     email = "//input[@id='g1051-email']"
     text = "//textarea[@id='contact-form-comment-g1051-message']"
     btn = "//button[@class='pushbutton-wide']"
-    modals = "//*[@id='top-wrap']/section/div/h1"
+    modals = "//strong[text()='IMPORTANT: Please ensure that ad blockers are turned OFF in your browser.']"
 
     # Getters
     def get_simpleModal(self):
@@ -49,7 +49,7 @@ class Click_modals(Base):
         return element
 
     def get_modals(self):
-        element = self.driver.find_element("xpath", self.modals)
+        element = WebDriverWait(self.driver, 30).until(EC.visibility_of_element_located(("xpath", self.modals)))
         return element.text
 
         # Actions
@@ -75,7 +75,7 @@ class Click_modals(Base):
         self.get_btn().click()
 
 
-    def modals(self):
+    def modalsf(self):
         with allure.step("time javaScripts"):
             Logger.add_start_step(method="time javaScripts")
             self.driver.get(self.url)
@@ -88,5 +88,5 @@ class Click_modals(Base):
             self.input_text()
             self.click_btn()
             self.get_screenshot()
-            assert self.assert_word(self.get_modals(), 'Modals')
+            assert self.get_modals() == 'IMPORTANT: Please ensure that ad blockers are turned OFF in your browser.'
             Logger.add_end_step(url=self.driver.current_url, method="modals")

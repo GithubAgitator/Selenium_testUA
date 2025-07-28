@@ -1,0 +1,10 @@
+Старт тест
+Current url https://practice-automation.com/form-fields/
+Input name
+Input password
+Click drink1
+Good value word
+Click drink2
+Good value word
+Click drink4
+Good value word

@@ -14,16 +14,17 @@ class Click_javaScripts(Base):
 
     # Locators
     button = "//button[@id='start']"
-    text = "//input[@id='delay']"
+    text1 = "//div[@id='delay']"
 
     # Getters
     def get_button(self):
         return WebDriverWait(self.driver, 30).until(EC.element_to_be_clickable(("xpath", self.button)))
 
     def get_text(self):
-        WebDriverWait(self.driver, 30).until(EC.text_to_be_present_in_element_value(("xpath", self.text), 'Liftoff!'))
-        element = self.driver.find_element("xpath", self.text)
-        return element.get_attribute('value')
+        element = WebDriverWait(self.driver, 30).until(EC.element_to_be_clickable(("xpath", self.text1)))
+        return element.text
+
+
         # Actions
     def click_button(self):
         self.get_button().click()
@@ -36,6 +37,7 @@ class Click_javaScripts(Base):
             self.driver.maximize_window()
             self.get_current_url()
             self.click_button()
+            time.sleep(10)
             assert self.get_text() == 'Liftoff!'
             print('Liftoff!')
             self.get_screenshot()

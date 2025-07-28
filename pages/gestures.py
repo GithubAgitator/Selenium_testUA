@@ -20,10 +20,6 @@ class Gestures(Base):
     automate_now_drop = "//div[@id='div2']"
     drag = "//*[@id='post-1023']/div/p[4]"
     lake_man = "//*[@id='post-1023']/div/div[6]"
-    lake_man_drop = "//*[@id='post-1023']/div/div[6]/div/div/div/div/div"
-
-
-
 
     # Getters
     def get_move(self):
@@ -58,16 +54,6 @@ class Gestures(Base):
     def click_automate_now(self):
         ActionChains(self.driver).drag_and_drop(self.get_automate_now(), self.get_automate_now_drop()).perform()
 
-    def click_lake_man(self):
-        element1 = self.get_lake_man()
-        element2 = self.get_lake_man_drop()
-        action = ActionChains(self.driver)
-        action.drag_and_drop(element1, element2).perform()
-
-
-
-
-
 
 
     def gestures(self):
@@ -79,7 +65,6 @@ class Gestures(Base):
             self.click_move()
             self.click_automate_now()
             self.get_drag()
-            self.click_lake_man()
             time.sleep(5)
             self.get_screenshot()
             Logger.add_end_step(url=self.driver.current_url, method="gestures")

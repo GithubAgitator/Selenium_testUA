@@ -1,0 +1,3 @@
+Старт тест
+Current url https://practice-automation.com/ads/
+Скриншот выполнен

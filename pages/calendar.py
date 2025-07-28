@@ -14,11 +14,11 @@ class Click_calendars(Base):
         self.driver = driver
 
     # Locators
-    selectorenteradate = "//input[@id='g1065-2-selectorenteradate']"
+    selectorenteradate = "//input[@id='g1065-2-1-selectorenteradate']"
     selectorenteradate_total = "//input[@value='2025-09-01']"
-    nexts = "//*[@id='ui-datepicker-div']/div/a[2]"
-    month = "//*[@id='ui-datepicker-div']/div/div/span[1]"
-    day = "//a[text()='1']"
+    nexts = "//*[@id='body']/div[6]/div/div/header/button[4]"
+    month = "//*[@id='body']/div[6]/div/div/header/button[1]"
+    day = "//button[text()='1']"
     btn = "//button[@type='submit']"
 
     # Getters
