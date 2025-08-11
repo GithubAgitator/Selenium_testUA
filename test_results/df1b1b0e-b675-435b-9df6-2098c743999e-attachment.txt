@@ -1,0 +1,4 @@
+Старт тест
+Current url https://practice-automation.com/hover/
+Good value word
+Скриншот выполнен

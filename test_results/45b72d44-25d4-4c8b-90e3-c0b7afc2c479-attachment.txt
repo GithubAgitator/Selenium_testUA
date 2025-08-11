@@ -1,0 +1,7 @@
+Старт тест
+Current url https://practice-automation.com/click-events/
+Meow!
+Woof!
+Oink!
+Moo!
+Скриншот выполнен

@@ -1,0 +1,149 @@
+
+-----
+Test: test_res/test_accordins.py::test_accordins (call)
+Start time: 2025-08-11 11:57:29.923878
+Start name method: time javaScripts
+
+End time: 2025-08-11 11:57:37.253273
+End name method: accordinst
+URL: https://practice-automation.com/accordions/
+
+-----
+
+-----
+Test: test_res/test_ads.py::test_slider (call)
+Start time: 2025-08-11 11:57:39.178682
+Start name method: time javaScripts
+
+End time: 2025-08-11 11:57:51.072004
+End name method: hover
+URL: https://practice-automation.com/ads/
+
+-----
+
+-----
+Test: test_res/test_calendar.py::test_slider (call)
+Start time: 2025-08-11 11:57:53.041978
+Start name method: time javaScripts
+
+
+-----
+Test: test_res/test_click_events.py::test_click_events (call)
+Start time: 2025-08-11 11:58:31.195829
+Start name method: time javaScripts
+
+End time: 2025-08-11 11:58:35.014160
+End name method: click_events
+URL: https://practice-automation.com/click-events/
+
+-----
+
+-----
+Test: test_res/test_gestures.py::test_gestures (call)
+Start time: 2025-08-11 11:58:36.937641
+Start name method: time javaScripts
+
+End time: 2025-08-11 11:58:47.851625
+End name method: gestures
+URL: https://practice-automation.com/gestures/
+
+-----
+
+-----
+Test: test_res/test_hover.py::test_hover (call)
+Start time: 2025-08-11 11:58:49.793812
+Start name method: time javaScripts
+
+End time: 2025-08-11 11:58:57.236726
+End name method: hover
+URL: https://practice-automation.com/hover/
+
+-----
+
+-----
+Test: test_res/test_iframes.py::test_iframe (call)
+Start time: 2025-08-11 11:58:59.276370
+Start name method: time javaScripts
+
+End time: 2025-08-11 11:59:13.721449
+End name method: iframes
+URL: https://practice-automation.com/iframes/
+
+-----
+
+-----
+Test: test_res/test_input_forms.py::test_forms (call)
+Start time: 2025-08-11 11:59:15.663257
+Start name method: Input forms
+
+End time: 2025-08-11 11:59:26.606701
+End name method: Input forms
+URL: https://practice-automation.com/form-fields/
+
+-----
+
+-----
+Test: test_res/test_javaScripts.py::test_time_Js (call)
+Start time: 2025-08-11 11:59:28.576637
+Start name method: time javaScripts
+
+End time: 2025-08-11 11:59:40.943731
+End name method: js
+URL: https://practice-automation.com/javascript-delays/
+
+-----
+
+-----
+Test: test_res/test_modals.py::test_modals (call)
+Start time: 2025-08-11 11:59:42.867421
+Start name method: time javaScripts
+
+End time: 2025-08-11 11:59:48.251244
+End name method: modals
+URL: https://practice-automation.com/modals/
+
+-----
+
+-----
+Test: test_res/test_popups.py::test_popups (call)
+Start time: 2025-08-11 11:59:50.122323
+Start name method: popups
+
+End time: 2025-08-11 12:00:00.641504
+End name method: popups
+URL: https://practice-automation.com/popups/
+
+-----
+
+-----
+Test: test_res/test_slider.py::test_slider (call)
+Start time: 2025-08-11 12:00:10.391996
+Start name method: time javaScripts
+
+End time: 2025-08-11 12:00:36.578830
+End name method: slider
+URL: https://practice-automation.com/slider/
+
+-----
+
+-----
+Test: test_res/test_tables.py::test_tables (call)
+Start time: 2025-08-11 12:00:38.554646
+Start name method: time javaScripts
+
+End time: 2025-08-11 12:00:45.319961
+End name method: tables
+URL: https://practice-automation.com/tables/
+
+-----
+
+-----
+Test: test_res/test_window_operations.py::test_window_operations (call)
+Start time: 2025-08-11 12:00:47.128848
+Start name method: time javaScripts
+
+End time: 2025-08-11 12:00:59.183890
+End name method: window_operations
+URL: https://practice-automation.com/window-operations/
+
+-----

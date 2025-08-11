@@ -1,0 +1,6 @@
+Старт тест
+Current url https://practice-automation.com/tables/
+<selenium.webdriver.remote.webelement.WebElement (session="3e418f7535448f11c9c422ac726197aa", element="f.02C50C34A77334F07EFC0E8D541F1CC8.d.F26DC49EC56DD0B60F735D65742D9149.e.41")>
+<selenium.webdriver.remote.webelement.WebElement (session="3e418f7535448f11c9c422ac726197aa", element="f.02C50C34A77334F07EFC0E8D541F1CC8.d.F26DC49EC56DD0B60F735D65742D9149.e.41")>
+<selenium.webdriver.remote.webelement.WebElement (session="3e418f7535448f11c9c422ac726197aa", element="f.02C50C34A77334F07EFC0E8D541F1CC8.d.F26DC49EC56DD0B60F735D65742D9149.e.41")>
+Скриншот выполнен
