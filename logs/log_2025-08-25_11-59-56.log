@@ -1,0 +1,11 @@
+
+-----
+Test: test_broken_links.py::test_broken_links (call)
+Start time: 2025-08-25 11:59:58.980312
+Start name method: time javaScripts
+
+End time: 2025-08-25 12:00:08.069349
+End name method: broken_links
+URL: https://practice-automation.com/broken-links/missing-page.html
+
+-----
